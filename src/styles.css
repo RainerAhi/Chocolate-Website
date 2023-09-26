@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;500&display=swap');
 
 @font-face {
-  font-family: 'Lakesight'; /* Choose a name for your font */
-  src: url('./Lakesight.woff') format('woff2'), /* specify the path to your font file */
+  font-family: 'Lakesight';
+  src: url('./Lakesight.woff2') format('woff2'),
+      url('./Lakesight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
