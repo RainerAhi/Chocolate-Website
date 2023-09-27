@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/lakesight-personal-use-only');
 
 @font-face {
   font-family: 'Lakesight';
@@ -64,8 +65,9 @@ header {
 }
 
 h1 {
-  font-family: 'Leckerli One', cursive;
+  font-family: 'Lakesight Personal Use Only', sans-serif;
   font-size: 5rem;
+  transform: rotate(-10deg);
 }
 
 footer {
@@ -81,4 +83,27 @@ footer {
 button:hover {
   color: aqua;
   pointer-events: all;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 6rem;
+    margin-left: 5%;
+    margin-top: 7.5%;
+  }
+
+  .menu {
+    font-size: 1rem;
+    gap: 5px;
+  }
+
+  ul {
+    opacity: 0;
+  }
+
+  footer {
+    font-size: 1.4rem;
+    width: 80%;
+    text-align: center;
+  }
 }
