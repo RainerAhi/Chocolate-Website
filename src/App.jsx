@@ -11,19 +11,6 @@ export default function App() {
     <Canvas shadows camera={{ position: [3, 0.8, 5], fov: 35 }}>
       <color attach="background" args={['#efb459']} />
       <directionalLight position={[4, 7, 2]} intensity={1} />
-      {/* <Sparkles 
-        scale={ [ 15, 5, 1 ] }
-        position={ [ 0, 0, -0.75 ] }
-        size={ 1 }
-        count={ 250 }
-        color={ "#efb459" }
-        opacity={ 1 }
-
-      /> */}
-      {/* <Float
-        rotationIntensity={ 0.1 }
-        speed={ 2 }
-      > */}
       <CameraRig>
         <group position={[0, -0.6, 0]}>
           <Center top>
